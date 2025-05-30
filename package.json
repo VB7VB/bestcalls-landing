@@ -1,0 +1,32 @@
+{
+  "name": "bestcalls-landing",
+  "version": "1.0.0",
+  "description": "Современный landing page для центра обработки вызовов BestCalls",
+  "main": "src/index.ts",
+  "scripts": {
+    "dev": "bun run --hot src/index.ts",
+    "start": "bun run src/index.ts",
+    "build": "echo 'Build completed - project is ready for production'",
+    "test": "echo 'No tests specified yet'"
+  },
+  "keywords": [
+    "call-center",
+    "landing-page",
+    "bun",
+    "typescript",
+    "hono",
+    "bestcalls"
+  ],
+  "author": "BestCalls Team",
+  "license": "UNLICENSED",
+  "private": true,
+  "dependencies": {
+    "hono": "^3.12.6"
+  },
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "engines": {
+    "bun": ">=1.0.0"
+  }
+} 
